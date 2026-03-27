@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Ecommerce Virtual Assistant specializing in Shopify Product Listing, Product Sourcing & Order Fulfillment. Hire a professional VA to grow your online store."/>
+  <meta name="keywords" content="Ecommerce Virtual Assistant, Shopify VA, Product Listing, Product Sourcing, Order Fulfillment, Dropshipping VA"/>
+  <title>Your Name | Ecommerce Virtual Assistant</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Jost:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"/>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css"/>
+
+  <!-- AOS Animation Library -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"/>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- ─── SCROLL PROGRESS BAR ─────────────────────────────────── -->
+  <div id="scroll-progress"></div>
+
+  <!-- ─── NAVIGATION ──────────────────────────────────────────── -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-first">Your</span><span class="logo-last">Name</span><span class="logo-dot">.</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#why-hire">Why Me</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── HERO SECTION ─────────────────────────────────────────── -->
+  <section id="hero">
+    <canvas id="particles-canvas"></canvas>
+    <div class="hero-content">
+      <p class="hero-tagline" data-aos="fade-down" data-aos-delay="100">✦ Ecommerce Virtual Assistant ✦</p>
+      <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">
+        Helping Online Stores<br/>
+        <span class="gold-text">Scale Smarter,</span><br/>
+        Sell More.
+      </h1>
+      <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="350">
+        I'm <strong>[Your Name]</strong> — a dedicated VA specializing in<br/>
+        <span class="typed-text" id="typed-text"></span>
+      </p>
+      <div class="hero-ctas" data-aos="fade-up" data-aos-delay="450">
+        <a href="#services" class="btn btn-primary">Explore Services</a>
+        <a href="#contact" class="btn btn-outline">Let's Work Together</a>
+      </div>
+      <div class="hero-stats" data-aos="fade-up" data-aos-delay="550">
+        <div class="stat-item">
+          <span class="stat-num" data-target="5000">0</span><span class="stat-plus">+</span>
+          <p>Products Listed</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="2000">0</span><span class="stat-plus">+</span>
+          <p>Orders Fulfilled</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="100">0</span><span class="stat-plus">%</span>
+          <p>Satisfaction Rate</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT SECTION ────────────────────────────────────────── -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Photo Column -->
+        <div class="about-photo-col" data-aos="fade-right" data-aos-duration="900">
+          <div class="photo-frame">
+            <img
+              src="images/profile.jpg"
+              alt="Nenafe Mandin — Ecommerce Virtual Assistant"
+              class="profile-photo"
+              onerror="this.onerror=null; this.src='images/profile-placeholder.svg'; this.classList.add('is-placeholder');"
+            />
+            <div class="photo-placeholder" style="display:none;">
+              <i class="fas fa-user"></i>
+              <span>Your Photo</span>
+            </div>
+            <div class="photo-badge">
+              <i class="fab fa-shopify"></i>
+              Shopify Expert
+            </div>
+          </div>
+        </div>
+
+        <!-- Text Column -->
+        <div class="about-text-col" data-aos="fade-left" data-aos-duration="900">
+          <p class="section-eyebrow">About Me</p>
+          <h2 class="section-title">Your Reliable Partner for <span class="gold-text">Ecommerce Growth</span></h2>
+          <p class="about-desc">
+            Hi! I'm <strong>[Your Name]</strong>, a results-driven Ecommerce Virtual Assistant based in the Philippines with a passion for helping online entrepreneurs build thriving Shopify stores. I handle the behind-the-scenes operations so you can focus on growing your business.
+          </p>
+          <p class="about-desc">
+            With hands-on experience in product listing optimization, supplier sourcing, and seamless order fulfillment, I bring both precision and dedication to every project I take on.
+          </p>
+
+          <div class="trust-highlights">
+            <div class="trust-item">
+              <div class="trust-icon"><i class="fas fa-check-circle"></i></div>
+              <div>
+                <strong>Detail-Oriented</strong>
+                <p>Accurate listings, zero errors</p>
+              </div>
+            </div>
+            <div class="trust-item">
+              <div class="trust-icon"><i class="fas fa-clock"></i></div>
+              <div>
+                <strong>Always On Time</strong>
+                <p>Deadlines are non-negotiable</p>
+              </div>
+            </div>
+            <div class="trust-item">
+              <div class="trust-icon"><i class="fas fa-comments"></i></div>
+              <div>
+                <strong>Clear Communicator</strong>
+                <p>Regular updates, always reachable</p>
+              </div>
+            </div>
+            <div class="trust-item">
+              <div class="trust-icon"><i class="fas fa-rocket"></i></div>
+              <div>
+                <strong>Growth Focused</strong>
+                <p>Always learning the latest tools</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-ctas">
+            <a href="#contact" class="btn btn-primary">Work With Me</a>
+            <a href="https://www.onlinejobs.ph/jobseekers/info/1608107" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+              <i class="fas fa-external-link-alt"></i> OnlineJobs.ph Profile
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SERVICES SECTION ──────────────────────────────────────── -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-eyebrow">What I Offer</p>
+        <h2 class="section-title">Premium <span class="gold-text">VA Services</span></h2>
+        <p class="section-subtitle">Comprehensive ecommerce support tailored to grow your online store with precision and care.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon"><i class="fas fa-store"></i></div>
+          <h3>Shopify Product Listing</h3>
+          <p>SEO-optimized product titles, compelling descriptions, high-quality image uploads, pricing, and variant setup — fully polished and ready to convert.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Bulk & single product uploads</li>
+            <li><i class="fas fa-check"></i> SEO title & description writing</li>
+            <li><i class="fas fa-check"></i> Variant & pricing setup</li>
+            <li><i class="fas fa-check"></i> Collection & tag organization</li>
+          </ul>
+        </div>
+
+        <!-- Service 2 — Featured -->
+        <div class="service-card service-featured" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-badge">⭐ Most Popular</div>
+          <div class="service-icon"><i class="fas fa-search-dollar"></i></div>
+          <h3>Product Sourcing</h3>
+          <p>I find winning products and reliable suppliers from AliExpress, Alibaba, CJ Dropshipping, and more — vetted for quality, price, and shipping speed.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Trend & competitor research</li>
+            <li><i class="fas fa-check"></i> Supplier vetting & negotiation</li>
+            <li><i class="fas fa-check"></i> Profit margin analysis</li>
+            <li><i class="fas fa-check"></i> Dropshipping integration</li>
+          </ul>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-icon"><i class="fas fa-box-open"></i></div>
+          <h3>Order Fulfillment</h3>
+          <p>End-to-end order management — processing, tracking, supplier coordination, and customer communication so every order reaches its destination smoothly.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Order processing & routing</li>
+            <li><i class="fas fa-check"></i> Tracking & status updates</li>
+            <li><i class="fas fa-check"></i> Supplier coordination</li>
+            <li><i class="fas fa-check"></i> Returns & refund handling</li>
+          </ul>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-icon"><i class="fas fa-headset"></i></div>
+          <h3>Ecommerce Admin Support</h3>
+          <p>General virtual assistance tasks to keep your store and operations running like clockwork — from inventory management to reporting and beyond.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Inventory management</li>
+            <li><i class="fas fa-check"></i> Data entry & spreadsheets</li>
+            <li><i class="fas fa-check"></i> Customer service support</li>
+            <li><i class="fas fa-check"></i> Reports & documentation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS & TOOLS SECTION ───────────────────────────────── -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-eyebrow">Skills & Tools</p>
+        <h2 class="section-title">My <span class="gold-text">Expertise & Toolkit</span></h2>
+        <p class="section-subtitle">Equipped with the right tools and skills to deliver exceptional ecommerce results.</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Skill Bars -->
+        <div class="skill-bars-col" data-aos="fade-right" data-aos-duration="800">
+          <h3 class="skills-col-title">Core Competencies</h3>
+          <div class="skill-bar-item">
+            <div class="skill-label">
+              <span>Shopify Product Listing</span><span>95%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill" data-width="95"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-label">
+              <span>Product Research & Sourcing</span><span>90%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-label">
+              <span>Order Fulfillment & Tracking</span><span>92%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill" data-width="92"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-label">
+              <span>SEO Product Descriptions</span><span>85%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-label">
+              <span>Data Entry & Spreadsheets</span><span>95%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill" data-width="95"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-label">
+              <span>Customer Communication</span><span>88%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill" data-width="88"></div></div>
+          </div>
+        </div>
+
+        <!-- Tool Icons Grid -->
+        <div class="tools-col" data-aos="fade-left" data-aos-duration="800">
+          <h3 class="skills-col-title">Tools I Use Daily</h3>
+          <div class="tools-grid">
+            <div class="tool-item">
+              <div class="tool-icon shopify-icon"><i class="fab fa-shopify"></i></div>
+              <span>Shopify</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon sheets-icon"><i class="fas fa-table"></i></div>
+              <span>Google Sheets</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon amazon-icon"><i class="fab fa-amazon"></i></div>
+              <span>Amazon</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon ali-icon"><i class="fas fa-shopping-bag"></i></div>
+              <span>AliExpress</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon alibaba-icon"><i class="fas fa-globe-asia"></i></div>
+              <span>Alibaba</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon cj-icon"><i class="fas fa-shipping-fast"></i></div>
+              <span>CJ Dropshipping</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon teemd-icon"><i class="fas fa-tshirt"></i></div>
+              <span>Teemdrop</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon drive-icon"><i class="fab fa-google-drive"></i></div>
+              <span>Google Drive</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon canva-icon"><i class="fas fa-paint-brush"></i></div>
+              <span>Canva</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon trello-icon"><i class="fab fa-trello"></i></div>
+              <span>Trello</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon zeedrop-icon"><i class="fas fa-sync-alt"></i></div>
+              <span>Zeedrop</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon ai-icon"><i class="fas fa-robot"></i></div>
+              <span>ChatGPT</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── WHY HIRE ME SECTION ──────────────────────────────────── -->
+  <section id="why-hire">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-eyebrow">Why Choose Me</p>
+        <h2 class="section-title">The <span class="gold-text">Difference</span> I Bring</h2>
+        <p class="section-subtitle">When you hire me, you're not just getting a VA — you're gaining a dedicated business partner invested in your success.</p>
+      </div>
+
+      <div class="reasons-grid">
+        <div class="reason-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="reason-num">01</div>
+          <div class="reason-icon"><i class="fas fa-bullseye"></i></div>
+          <h3>Results-Driven</h3>
+          <p>Every action I take is focused on moving your business forward — more listings, faster fulfillment, better sourcing.</p>
+        </div>
+        <div class="reason-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="reason-num">02</div>
+          <div class="reason-icon"><i class="fas fa-clock"></i></div>
+          <h3>Consistent & Reliable</h3>
+          <p>I show up every day ready to work. You can count on me for deadlines, daily tasks, and long-term projects alike.</p>
+        </div>
+        <div class="reason-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="reason-num">03</div>
+          <div class="reason-icon"><i class="fas fa-brain"></i></div>
+          <h3>Continuous Learner</h3>
+          <p>The ecommerce landscape evolves fast — I stay updated with the latest Shopify features, tools, and dropshipping strategies.</p>
+        </div>
+        <div class="reason-card" data-aos="fade-up" data-aos-delay="250">
+          <div class="reason-num">04</div>
+          <div class="reason-icon"><i class="fas fa-dollar-sign"></i></div>
+          <h3>Cost-Effective</h3>
+          <p>Get premium-quality work at VA rates. Hiring me saves you time, reduces overhead, and delivers real ROI.</p>
+        </div>
+        <div class="reason-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="reason-num">05</div>
+          <div class="reason-icon"><i class="fas fa-handshake"></i></div>
+          <h3>Client-Focused</h3>
+          <p>Your goals are my goals. I communicate clearly, adapt quickly, and always put your business needs first.</p>
+        </div>
+        <div class="reason-card" data-aos="fade-up" data-aos-delay="350">
+          <div class="reason-num">06</div>
+          <div class="reason-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>Professional Integrity</h3>
+          <p>Confidentiality, accuracy, and professionalism are the foundation of everything I do. Your data is always safe with me.</p>
+        </div>
+      </div>
+
+      <!-- Testimonial Block -->
+      <div class="testimonial-block" data-aos="fade-up" data-aos-delay="400">
+        <div class="testimonial-inner">
+          <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+          <blockquote>
+            "[Your Name] completely transformed our Shopify store operations. Product listings went from chaotic to perfectly organized, and our order fulfillment is now seamless. She's an absolute gem — professional, fast, and incredibly reliable!"
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">🌟</div>
+            <div>
+              <strong>[Client Name]</strong>
+              <span>Shopify Store Owner, [Country]</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── WORK PROCESS SECTION ─────────────────────────────────── -->
+  <section id="process">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-eyebrow">How I Work</p>
+        <h2 class="section-title">My <span class="gold-text">Work Process</span></h2>
+        <p class="section-subtitle">A clear, structured workflow for every service — so you always know what to expect.</p>
+      </div>
+
+      <div class="process-tabs" data-aos="fade-up" data-aos-delay="100">
+        <button class="tab-btn active" data-tab="listing">
+          <i class="fas fa-store"></i> Product Listing
+        </button>
+        <button class="tab-btn" data-tab="sourcing">
+          <i class="fas fa-search-dollar"></i> Product Sourcing
+        </button>
+        <button class="tab-btn" data-tab="fulfillment">
+          <i class="fas fa-box-open"></i> Order Fulfillment
+        </button>
+      </div>
+
+      <div class="tab-content active" id="tab-listing" data-aos="fade-up" data-aos-delay="200">
+        <div class="process-steps">
+          <div class="process-step">
+            <div class="step-num">1</div>
+            <div class="step-content">
+              <h4>Store Audit & Brief</h4>
+              <p>I review your Shopify store, understand your niche, brand voice, and target audience to align all listings with your goals.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">2</div>
+            <div class="step-content">
+              <h4>Content Creation</h4>
+              <p>I craft SEO-optimized titles, compelling descriptions, bullet points, and organize product images for maximum conversion.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">3</div>
+            <div class="step-content">
+              <h4>Upload & Setup</h4>
+              <p>Products are uploaded with correct variants, pricing, collections, tags, and meta fields — all accurately configured.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">4</div>
+            <div class="step-content">
+              <h4>Review & Handover</h4>
+              <p>Final quality check, your approval, and a detailed report of all work completed. Ready to publish!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-content" id="tab-sourcing">
+        <div class="process-steps">
+          <div class="process-step">
+            <div class="step-num">1</div>
+            <div class="step-content">
+              <h4>Niche & Market Research</h4>
+              <p>I analyze your niche, competitor stores, and current market trends to identify winning product opportunities.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">2</div>
+            <div class="step-content">
+              <h4>Supplier Discovery</h4>
+              <p>I search AliExpress, Alibaba, CJ Dropshipping, and other platforms to find reliable suppliers with quality products.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">3</div>
+            <div class="step-content">
+              <h4>Vetting & Comparison</h4>
+              <p>Suppliers are evaluated for price, quality, shipping speed, and reviews. I compare multiple options and present the best.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">4</div>
+            <div class="step-content">
+              <h4>Integration & Reporting</h4>
+              <p>Selected products are integrated into your store with full sourcing reports and margin analysis delivered to you.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-content" id="tab-fulfillment">
+        <div class="process-steps">
+          <div class="process-step">
+            <div class="step-num">1</div>
+            <div class="step-content">
+              <h4>Order Monitoring</h4>
+              <p>I monitor your Shopify dashboard daily, identifying new orders and flagging any issues that need immediate attention.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">2</div>
+            <div class="step-content">
+              <h4>Processing & Routing</h4>
+              <p>Orders are forwarded to the correct supplier or fulfillment center with accurate shipping details and customer information.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">3</div>
+            <div class="step-content">
+              <h4>Tracking & Updates</h4>
+              <p>I update tracking numbers in Shopify, ensure customers are notified, and monitor delivery progress end-to-end.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">4</div>
+            <div class="step-content">
+              <h4>Issue Resolution</h4>
+              <p>Any delivery issues, refunds, or customer complaints are handled promptly to maintain your store's reputation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT SECTION ──────────────────────────────────────── -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-eyebrow">Let's Connect</p>
+        <h2 class="section-title">Ready to <span class="gold-text">Grow Your Store?</span></h2>
+        <p class="section-subtitle">I'd love to hear about your business and how I can help. Send me a message and I'll respond within 24 hours.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Info -->
+        <div class="contact-info-col" data-aos="fade-right" data-aos-duration="800">
+          <h3>Get In Touch</h3>
+
+          <div class="contact-detail">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:youremail@example.com">youremail@example.com</a>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <strong>Location</strong>
+              <span>Philippines (Available for Remote Work)</span>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <strong>Availability</strong>
+              <span>Full-Time / Part-Time — Flexible Hours</span>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-icon"><i class="fas fa-reply"></i></div>
+            <div>
+              <strong>Response Time</strong>
+              <span>Within 24 hours</span>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <h4>Connect with Me</h4>
+            <div class="social-grid">
+              <a href="http://www.linkedin.com/in/nenafemandinva0213" target="_blank" rel="noopener noreferrer" class="social-link linkedin" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://www.facebook.com/share/18QurvtN57/" target="_blank" rel="noopener noreferrer" class="social-link facebook" title="Facebook">
+                <i class="fab fa-facebook-f"></i>
+                <span>Facebook</span>
+              </a>
+              <a href="https://www.instagram.com/nen.nenskie?igsh=bjFnOWI2dWVibTJi" target="_blank" rel="noopener noreferrer" class="social-link instagram" title="Instagram">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+              <a href="https://www.onlinejobs.ph/jobseekers/info/1608107" target="_blank" rel="noopener noreferrer" class="social-link onlinejobs" title="OnlineJobs.ph">
+                <i class="fas fa-briefcase"></i>
+                <span>OnlineJobs.ph</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-col" data-aos="fade-left" data-aos-duration="800">
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name *</label>
+                <input type="text" id="name" name="name" placeholder="John Smith" required/>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="service">Service Interested In</label>
+              <select id="service" name="service">
+                <option value="">Select a service...</option>
+                <option value="listing">Shopify Product Listing</option>
+                <option value="sourcing">Product Sourcing</option>
+                <option value="fulfillment">Order Fulfillment</option>
+                <option value="admin">Ecommerce Admin Support</option>
+                <option value="all">Full Ecommerce VA Package</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="budget">Monthly Budget (Optional)</label>
+              <select id="budget" name="budget">
+                <option value="">Select budget range...</option>
+                <option value="under300">Under $300/mo</option>
+                <option value="300-500">$300 – $500/mo</option>
+                <option value="500-800">$500 – $800/mo</option>
+                <option value="800plus">$800+/mo</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell Me About Your Project *</label>
+              <textarea id="message" name="message" rows="5" placeholder="Describe your store, what you need help with, and any other details..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+              <span class="btn-text"><i class="fas fa-paper-plane"></i> Send Message</span>
+              <span class="btn-loading" style="display:none;"><i class="fas fa-spinner fa-spin"></i> Sending...</span>
+            </button>
+          </form>
+
+          <!-- Success State -->
+          <div class="form-success" id="form-success" style="display:none;">
+            <div class="success-icon"><i class="fas fa-check-circle"></i></div>
+            <h3>Message Sent! 🎉</h3>
+            <p>Thank you for reaching out! I'll get back to you within 24 hours. Looking forward to discussing your project.</p>
+            <button class="btn btn-outline" id="reset-form">Send Another Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────────── -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="#hero" class="footer-logo">
+            <span class="logo-first">Your</span><span class="logo-last">Name</span><span class="logo-dot">.</span>
+          </a>
+          <p>Helping Shopify store owners scale their ecommerce business through reliable, results-driven virtual assistant services.</p>
+          <div class="footer-social">
+            <a href="http://www.linkedin.com/in/nenafemandinva0213" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/share/18QurvtN57/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/nen.nenskie?igsh=bjFnOWI2dWVibTJi" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.onlinejobs.ph/jobseekers/info/1608107" target="_blank" rel="noopener noreferrer" aria-label="OnlineJobs.ph"><i class="fas fa-briefcase"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-nav">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills & Tools</a></li>
+            <li><a href="#why-hire">Why Hire Me</a></li>
+            <li><a href="#process">Work Process</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-services">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Shopify Product Listing</a></li>
+            <li><a href="#services">Product Sourcing</a></li>
+            <li><a href="#services">Order Fulfillment</a></li>
+            <li><a href="#services">Ecommerce Admin Support</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-cta-col">
+          <h4>Ready to Scale?</h4>
+          <p>Let's discuss how I can help your store grow.</p>
+          <a href="#contact" class="btn btn-primary">Hire Me Now</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> <strong>[Your Name]</strong> — Ecommerce Virtual Assistant. All rights reserved.</p>
+        <p class="footer-made">Made with <span class="heart">♥</span> in the Philippines</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- AOS Library -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <!-- Main Script -->
+  <script src="js/main.js"></script>
+</body>
+</html>
